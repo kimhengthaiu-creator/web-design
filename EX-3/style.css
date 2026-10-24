@@ -1,0 +1,16 @@
+/* TODO */
+button{
+    border: 1px solid black;
+    margin: 50px 200px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+button:hover{
+    transition: 3s;
+    padding: 60px;
+    background-color: rgb(12, 131, 161);
+    color: white;
+}

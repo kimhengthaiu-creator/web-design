@@ -1,0 +1,39 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+.j{
+   background-color: aliceblue;
+   border-radius: 10px;
+   margin: 30px 100px;
+   padding: 20px;
+   border: 1px solid black;
+}
+button{
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.r{
+    color:aliceblue;
+    background-color: green;
+}
+.t{
+    background-color: orange;
+}
+.u{
+    color: aliceblue;
+    background-color: purple;
+}
+.r:hover{
+    color: black;
+    background-color: pink;
+}
+.t:hover{
+    color: aliceblue;
+    background-color: rgb(141, 98, 98);
+}
+.u:hover{
+    color: black;
+    background-color: rgb(81, 141, 193);
+}
