@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e9cdae;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: #352217;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    padding: 30px 50px;
+    border-bottom: 4px solid #b88955;
+}
+.u{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white;
+   font-size: 25px;
+   font-weight: bold;
+}
+.c{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.c a{
+    color:aliceblue;
+    font-size: 17px;
+}
+.c a:hover{
+    color: antiquewhite;
+}
+.b{
+    justify-self: end;
+    padding: 15px 20px;
+    background-color: #c28b55;
+    border-radius: 0.5em;
+    font-size: 20px;
+    color: white;
+}
+.b:hover{
+    background-color: aquamarine;
+    color: #352217;
+}
+.bod{
+    display: grid;
+    align-items: center;
+}
+.bo{
+    text-align: center;
+    padding: 30px 20px;   
+    border-bottom: 4px solid  #b88955;
+    background-color: #8d7d6e;
+}
+.t{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.y{
+    padding-top: 20px;
+}
+.dashboard{
+    display: grid;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 4px solid  #b88955;
+}
+.dashboard h2{
+    padding: 10px;
+    font-size: 29px;
+    text-align: center;
+}
+.g{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.card{
+    display: grid;
+    border: 2px solid rgb(209, 124, 45);
+    text-align: center;
+    padding: 25px 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 0.5em;
+    box-shadow: 0 3px 8px rgba(56, 35, 23, 0.12);
+    gap: 20px;
+}
+.q{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.card2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;  
+}
+.j{
+    border-radius: 1em;
+    border: 2px solid black;
+}
+.card3{
+    display: grid;
+    border: 2px solid rgb(209, 124, 45);
+    text-align: center;
+    padding: 25px 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 0.5em;
+    box-shadow: 0 3px 8px rgba(56, 35, 23, 0.12);
+    gap: 20px;
+}
+
