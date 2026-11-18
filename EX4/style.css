@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.small{
+    border: 3px solid black;
+    border-radius: 0.5em;
+    background-color: rgb(186, 32, 32);
+
+}
+.big{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 0.5em;
+    background-color: rgb(75, 232, 35);
+    padding: 50px 50px;
+} 
+@media (max-width: 749px){
+    .small{
+        display: inline;
+    }
+    .big{
+        display: none;
+    }
+}
+@media(min-width: 750px){
+    .big{
+        display: inline;
+    }
+    .small{
+        display: none;
+    }
+}

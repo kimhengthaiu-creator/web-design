@@ -1,0 +1,38 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.container{
+    border: 2px solid blue;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 30px;
+    background-color: rgb(141, 140, 140);
+    padding:  10px 10px;
+}
+h2{
+    color: white;
+}
+.bar{
+    color: white;
+    display: flex;
+    list-style: none;
+    gap: 35px; 
+}
+.bar a{
+    color: white;
+}
+#menuIcon{
+    display: none;
+}
+@media (max-width: 767px) {
+
+    #menuIcon {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+}
